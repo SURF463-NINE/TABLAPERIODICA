@@ -1,0 +1,618 @@
+<html> 
+<head>
+<title>cuarentena</title>
+<style type="text/css"> 
+.gasnoble{background-color:rgb(255, 122, 13);width: 90px;height:90px; text-align:center;}
+.gasnoble:hover{background-color:rgb(255, 122, 13);width: 90px;height:90px; text-align:center;}
+.nometal{background-color:violet;width: 90px;height:90px; text-align:center;}
+.nometal:hover{background-color: rgb(255, 122, 13);width: 90px;height:90px; text-align:center;}
+.metaloide{background-color:rgb(54, 221, 213);width: 90px;height:90px; text-align:center;}
+.metaloide:hover{background-color:rgb(54, 221, 213);width: 90px;height:90px; text-align:center;}
+.metaldetransicion{background-color:red;width: 90px;height:90px; text-align:center;}
+.metaldetransicion:hover{background-color: rgb(15, 145, 252);width: 90px;height:90px; text-align:center;}
+.metal{background-color:royalblue;width: 90px;height:90px; text-align:center;}
+.metal:hover{background-color:royalblue;width: 90px;height:90px; text-align:center;}
+.lantanidos{background-color:springgreen;width: 90px;height:90px; text-align:center;}
+.lantanidos:hover{background-color:springgreen;width: 90px;height:90px; text-align:center;}
+.actinios{background-color:yellow;width: 90px;height:90px; text-align:center;}
+.actinios:hover{background-color:yellow;width: 90px;height:90px; text-align:center;}
+
+
+#he{position:absolute;right:-500px;}
+#ne{position:absolute;right:-500px;top: 90;}
+#ar{position:absolute;right:-500px;top: 180;}
+#kr{position:absolute;right:-500px;top: 270;}
+#xe{position:absolute;right:-500px;top:360;}
+#rn{position:absolute;right:-500px;top:450;}
+#og{position:absolute;right:-500px;top:540;}
+#h{position:absolute;right:1030px}
+#f{position:absolute;right:-410px;top:90;}
+#cl{position:absolute;right:-410px;top:180;}
+#br{position:absolute;right:-410px;top:270;}
+#i{position:absolute;right:-410px;top:360;}
+#at{position:absolute;right:-410px;top:450;}
+#o{position:absolute;right:-320px;top:90;}
+#s{position:absolute;right:-320px;top:180;}
+#se{position:absolute;right:-320px;top:270;}
+#n{position:absolute;right:-230px;top:90;}
+#p{position:absolute;right:-230px;top:180;}
+#c{position:absolute;right:-140px;top:90;}
+#po{position:absolute;right:-320px;top:450;}
+#te{position:absolute;right:-320px;top:360;}
+#sb{position:absolute;right:-230px;top:360;}
+#as{position:absolute;right:-230px;top:270;}
+#ge{position:absolute;right:-140px;top:270;}
+#si{position:absolute;right:-140px;top:180;}
+#b{position:absolute;right:-50px;top:90;}
+#be{position:absolute;right:940px;top:90;}
+#mg{position:absolute;right:940px;top:180;}
+#ca{position:absolute;right:940px;top:270;}
+#sr{position:absolute;right:940px;top:360;}
+#ba{position:absolute;right:940px;top:450;}
+#ra{position:absolute;right:940px;top:540;}
+#li{position:absolute;right:1030px;top:90;}
+#na{position:absolute;right:1030px;top:180;}
+#k{position:absolute;right:1030px;top:270;}
+#rb{position:absolute;right:1030px;top:360;}
+#cs{position:absolute;right:1030px;top:450;}
+#fr{position:absolute;right:1030px;top:540;}
+#al{position:absolute;right:-50px;top:180;}
+#ga{position:absolute;right:-50px;top:270;}
+#in{position:absolute;right:-50px;top:360;}
+#tl{position:absolute;right:-50px;top:450;}
+#nh{position:absolute;right:-50px;top:540;}
+#sn{position:absolute;right:-140px;top:360;}
+#pb{position:absolute;right:-140px;top:450;}
+#fl{position:absolute;right:-140px;top:540;}
+#bi{position:absolute;right:-230px;top:450;}
+#mc{position:absolute;right:-230px;top:540;}
+#lv{position:absolute;right:-320px;top:540;}
+#ts{position:absolute;right:-410px;top:540;}
+#zn{position:absolute;right:40px;top:270;}
+#cd{position:absolute;right:40px;top:360;}
+#hg{position:absolute;right:40px;top:450;}
+#cn{position:absolute;right:40px;top:540;}
+#cu{position:absolute;right:130px;top:270;}
+#ag{position:absolute;right:130px;top:360;}
+#au{position:absolute;right:130px;top:450;}
+#rg{position:absolute;right:130px;top:540;}
+#ni{position:absolute;right:220px;top:270;}
+#pd{position:absolute;right:220px;top:360;}
+#pt{position:absolute;right:220px;top:450;}
+#ds{position:absolute;right:220px;top:540;}
+#co{position:absolute;right:310px;top:270;}
+#rh{position:absolute;right:310px;top:360;}
+#ir{position:absolute;right:310px;top:450;}
+#mt{position:absolute;right:310px;top:540;}
+#fe{position:absolute;right:400px;top:270;}
+#ru{position:absolute;right:400px;top:360;}
+#os{position:absolute;right:400px;top:450;}
+#hs{position:absolute;right:400px;top:540;}
+#mn{position:absolute;right:490px;top:270;}
+#tc{position:absolute;right:490px;top:360;}
+#re{position:absolute;right:490px;top:450;}
+#bh{position:absolute;right:490px;top:540;}
+#cr{position:absolute;right:580px;top:540;}
+#mo{position:absolute;right:580px;top:270;}
+#w{position:absolute;right:580px;top:360;}
+#sg{position:absolute;right:580px;top:450;}
+#v{position:absolute;right:670px;top:270;}
+#nb{position:absolute;right:670px;top:360;}
+#ta{position:absolute;right:670px;top:450;}
+#db{position:absolute;right:670px;top:540;}
+#ti{position:absolute;right:760px;top:270;}
+#zr{position:absolute;right:760px;top:360;}
+#hf{position:absolute;right:760px;top:450;}
+#rf{position:absolute;right:760px;top:540;}
+#sc{position:absolute;right:850px;top:270;}
+#y{position:absolute;right:850px;top:360;}
+#la{position:absolute;right:850px;top:450;}
+#ce{position:absolute;right:760px;top:660;}
+#pr{position:absolute;right:670px;top:660;}
+#nd{position:absolute;right:580px;top:660;}
+#pm{position:absolute;right:490px;top:660;}
+#sm{position:absolute;right:400px;top:660;}
+#eu{position:absolute;right:310px;top:660;}
+#gd{position:absolute;right:220px;top:660;}
+#tb{position:absolute;right:130px;top:660;}
+#dy{position:absolute;right:40px;top:660;}
+#ho{position:absolute;right:-50px;top:660;}
+#er{position:absolute;right:-140px;top:660;}
+#tm{position:absolute;right:-230px;top:660;}
+#yb{position:absolute;right:-320px;top:660;}
+#lu{position:absolute;right:-410px;top:660;}
+#ac{position:absolute;right:850px;top:540;}
+#th{position:absolute;right:760px;top:750;}
+#pa{position:absolute;right:670px;top:750;}
+#u{position:absolute;right:580px;top:750;}
+#np{position:absolute;right:490px;top:750;}
+#pu{position:absolute;right:400px;top:750;}
+#am{position:absolute;right:310px;top:750;}
+#cm{position:absolute;right:220px;top:750;}
+#bk{position:absolute;right:130px;top:750;}
+#cf{position:absolute;right:40px;top:750;}
+#es{position:absolute;right:-50px;top:750;}
+#fm{position:absolute;right:-140px;top:750;}
+#md{position:absolute;right:-230px;top:750;}
+#no{position:absolute;right:-320px;top:750;}
+#lr{position:absolute;right:-410px;top:750;}
+
+</style>
+</head>
+<body>  
+<button class="gasnoble" id="he" type="button" onclick="alert(4.002)">
+<h1>He</h1>
+<p>Helio</p>
+</button>
+<button class="gasnoble" id="ne" type="button" onclick="alert(20.179)">
+<h1>Ne</h1>
+<p>Neon</p>
+</button>
+ <button class="gasnoble" id="ar" type="button" onclick="alert(39.948)">
+<h1>Ar</h1>
+<p>Argon</p>
+</button>
+<button class="gasnoble" id="kr" type="button" onclick="alert(83.79)">
+<h1>Kr</h1>
+<p>Cripton</p>
+</button>
+<button class="gasnoble" id="xe" type="button" onclick="alert(131.29)">
+<h1>Xe</h1>
+<p>Xenon</p>
+</button>
+<button class="gasnoble" id="rn" type="button" onclick="alert((222.01))">
+<h1>Rn</h1>
+<p>Radon</p>
+</button>
+<button class="gasnoble" id="og" type="button" onclick="alert(294)">
+<h1>Og</h1>
+<p>Organeson</p>
+</button>
+<button class="gasnoble" id="h" type="button" onclick="alert(1.0079)">
+<h1>H</h1>
+<p>Hidrogeno</p>
+</button>
+<button class="nometal" id="f" type="button" onclick="alert(18.998)">
+<h1>F</h1>
+<p>Fluor</p>
+</button>
+<button class="nometal" id="cl" type="button" onclick="alert(35.45)">
+<h1>Cl</h1>
+<p>Cloro</p>
+</button>
+<button class="nometal" id="br" type="button" onclick="alert(79.90)">
+<h1>Br</h1>
+<p>Bromo</p>
+</button>
+<button class="nometal" id="i" type="button" onclick="alert(126.90)">
+<h1>I</h1>
+<p>Yodo</p>
+</button>
+<button class="nometal" id="at" type="button" onclick="alert((209.98))">
+<h1>At</h1>
+<p>Astato</p>
+</button>
+<button class="nometal" id="o" type="button" onclick="alert(15.9994)">
+<h1>O</h1>
+<p>Oxigeno</p>
+</button>
+<button class="nometal" id="s" type="button" onclick="alert(32.065)">
+<h1>S</h1>
+<p>Azufre</p>
+</button>
+<button class="nometal" id="se" type="button" onclick="alert(78.96)">
+<h1>Se</h1>
+<p>Selenio</p>
+</button>
+<button class="nometal" id="n" type="button" onclick="alert(14.0067)">
+<h1>N</h1>
+<p>Nitrogeno</p>
+</button>
+<button class="nometal" id="p" type="button" onclick="alert(30.97)">
+<h1>P</h1>
+<p>fosforo</p>
+</button>
+<button class="nometal" id="c" type="button" onclick="alert(12.01)">
+<h1>C</h1>
+<p>Calcio</p>
+</button>
+<button class="metaloide" id="po" type="button" onclick="alert(209)">
+<h1>Po</h1>
+<p>Polonio</p>
+</button>
+<button class="metaloide" id="te" type="button" onclick="alert(127.6)">
+<h1>Te</h1>
+<p>Telurio</p>
+</button>
+<button class="metaloide" id="sb" type="button" onclick="alert(121.76)">
+<h1>Sb</h1>
+<p>Antimonio</p>
+</button>
+<button class="metaloide" id="as" type="button" onclick="alert(74.92)">
+<h1>As</h1>
+<p>Arsenico</p>
+</button>
+<button class="metaloide" id="ge" type="button" onclick="alert(72.64)">
+<h1>Ge</h1>
+<p>Germanio</p>
+</button>
+<button class="metaloide" id="si" type="button" onclick="alert(28.08)">
+<h1>Si</h1>
+<p>Silicio</p>
+</button>
+<button class="metaloide" id="b" type="button" onclick="alert(10.811)">
+<h1>B</h1>
+<p>Boro</p>
+</button>
+<button class="metaloide" id="be" type="button" onclick="alert(9.01)">
+<h1>Be</h1>
+<p>Berilio</p>
+</button>
+<button class="metaloide" id="mg" type="button" onclick="alert(24.3)">
+<h1>Mg</h1>
+<p>Magnesio</p>
+</button> 
+<button class="metaloide" id="ca" type="button" onclick="alert(40.07)">
+<h1>Ca</h1>
+<p>Calcio</p>
+</button> 
+<button class="metaloide" id="sr" type="button" onclick="alert(87.62)">
+<h1>Sr</h1>
+<p>Estroncio</p>
+</button>
+<button class="metaloide" id="ba" type="button" onclick="alert(137.32)">
+<h1>Ba</h1>
+<p>Bario</p>
+</button>  
+<button class="metaloide" id="ra" type="button" onclick="alert((226))">
+<h1>Ra</h1>
+<p>Radio</p>
+</button> 
+<button class="metaloide" id="li" type="button" onclick="alert(6.91)">
+<h1>Li</h1>
+<p>Litio</p>
+</button>
+<button class="metaloide" id="na" type="button" onclick="alert(22.98)">
+ <h1>Na</h1>
+<p>Sodio</p>
+</button> 
+<button class="metaloide" id="k" type="button" onclick="alert(39.09)">
+<h1>K</h1>
+<p>Potasio</p>
+</button> 
+<button class="metaloide" id="rb" type="button" onclick="alert(85.46)">
+<h1>Rb</h1>
+<p>Rubidio</p>
+</button>
+<button class="metaloide" id="Cs" type="button" onclick="alert(132.90)">
+<h1>Cs</h1>
+<p>Cesio</p>
+</button>  
+<button class="metaloide" id="fr" type="button" onclick="alert(223)">
+<h1>Fr</h1>
+<p>Francio</p>
+</button> 
+<button class="metal" id="al" type="button" onclick="alert(26.98)">
+<h1>Al</h1>
+<p>Aluminio</p>
+</button>
+<button class="metal" id="ga" type="button" onclick="alert(69,23)">
+<h1>Ga</h1>
+<p>Galio</p>
+</button>
+<button class="metal" id="in" type="button" onclick="alert(114.818)">
+<h1>In</h1>
+<p>Indio</p>
+</button>
+<button class="metal" id="tl" type="button" onclick="alert(204.38)">
+<h1>Tl</h1>
+<p>Talio</p>
+</button>
+<button class="metal" id="nh" type="button" onclick="alert(286)">
+<h1>Nh</h1>
+<p>Nihonio</p>
+</button>
+<button class="metal" id="sn" type="button" onclick="alert(118.71)">
+<h1>Sn</h1>
+<p>Estaño</p>
+</button>
+<button class="metal" id="pb" type="button" onclick="alert(207.2)">
+<h1>Pb</h1>
+<p>Plomo</p>
+</button>
+<button class="metal" id="fl" type="button" onclick="alert(289)">
+<h1>Fl</h1>
+<p>Flevorio</p>
+</button>
+<button class="metal" id="bi" type="button" onclick="alert(208.98)">
+<h1>Bi</h1>
+<p>Bismuto</p>
+</button>      
+<button class="metal" id="mc" type="button" onclick="alert(288)">
+<h1>Mc</h1>
+<p>Moscovio</p>
+</button>         
+<button class="metal" id="lv" type="button" onclick="alert(293)">
+<h1>Lv</h1>
+<p>Livermorio</p>
+</button>        
+<button class="metal" id="ts" type="button" onclick="alert(294)">
+<h1>Ts</h1>
+<p>Teneso</p>
+</button>   
+<button class="metaldetransicion" id="zn" type="button" onclick="alert(65.39)">
+<h1>Zn</h1>
+<p>Zinc</p>
+</button>      
+<button class="metaldetransicion" id="cd" type="button" onclick="alert(112.411)">
+<h1>Cd</h1>
+<p>Cadmio</p>
+</button>
+<button class="metaldetransicion" id="hg" type="button" onclick="alert(200.59)">
+<h1>Hg</h1>
+<p>Mercurio</p>
+</button> 
+<button class="metaldetransicion" id="cn" type="button" onclick="alert(285)">
+<h1>Cn</h1>
+<p>Copernico</p>
+</button>     
+<button class="metaldetransicion" id="cu" type="button" onclick="alert(63.54)">
+<h1>Cu</h1>
+<p>Cobre</p>
+</button> 
+<button class="metaldetransicion" id="ag" type="button" onclick="alert(107.86)">
+<h1>Ag</h1>
+<p>Plata</p>
+</button> 
+<button class="metaldetransicion" id="au" type="button" onclick="alert(196.96)">
+<h1>Au</h1>
+<p>oro</p>
+</button> 
+<button class="metaldetransicion" id="rg" type="button" onclick="alert(280)">
+<h1>Rg</h1>
+<p>Roentgenio</p>
+</button> 
+<button class="metaldetransicion" id="ni" type="button" onclick="alert(58.69)">
+<h1>Ni</h1>
+<p>Niquel</p>
+</button> 
+<button class="metaldetransicion" id="pd" type="button" onclick="alert(106.42)">
+<h1>Pd</h1>
+<p>Paladio</p>
+</button> 
+<button class="metaldetransicion" id="pt" type="button" onclick="alert(195.07)">
+<h1>Pt</h1>
+<p>Platino</p>
+</button> 
+<button class="metaldetransicion" id="ds" type="button" onclick="alert(281)">
+<h1>Ds</h1>
+<p>Damstadio</p>
+</button> 
+<button class="metaldetransicion" id="co" type="button" onclick="alert(58.93)">
+<h1>Co</h1>
+<p>Cobalto</p>
+</button> 
+<button class="metaldetransicion" id="rh" type="button" onclick="alert(102.90)">
+<h1>Rh</h1>
+<p>Rodio</p>
+</button> 
+<button class="metaldetransicion" id="ir" type="button" onclick="alert(192.21)">
+<h1>Ir</h1>
+<p>Iridio</p>
+</button> 
+<button class="metaldetransicion" id="mt" type="button" onclick="alert(268)">
+<h1>Mt</h1>
+<p>Meitnerio</p>
+</button> 
+<button class="metaldetransicion" id="fe" type="button" onclick="alert(55.84)">
+<h1>Fe</h1>
+<p>Hierro</p>
+</button> 
+<button class="metaldetransicion" id="ru" type="button" onclick="alert(101.07)">
+<h1>Ru</h1>
+<p>Rutenio</p>
+</button> 
+<button class="metaldetransicion" id="os" type="button" onclick="alert(190.23)">
+<h1>Os</h1>
+<p>Osmio</p>
+</button> 
+<button class="metaldetransicion" id="hs" type="button" onclick="alert(277)">
+<h1>Hs</h1>
+<p>Hassio</p>
+</button> 
+<button class="metaldetransicion" id="mn" type="button" onclick="alert(54.93)">
+<h1>Mn</h1>
+<p>Magneso</p>
+</button> 
+<button class="metaldetransicion" id="tc" type="button" onclick="alert(98)">
+<h1>Tc</h1>
+<p>Tecnecio</p>
+</button> 
+<button class="metaldetransicion" id="re" type="button" onclick="alert(186.20)">
+<h1>Re</h1>
+<p>Re</p>
+</button> 
+<button class="metaldetransicion" id="bh" type="button" onclick="alert(264)">
+<h1>Bh</h1>
+<p>Bohrio</p>
+</button> 
+<button class="metaldetransicion" id="cr" type="button" onclick="alert(51.99)">
+<h1>Cr</h1>
+<p>Cromo</p>
+</button> 
+<button class="metaldetransicion" id="mo" type="button" onclick="alert(95.94)">
+<h1>Mo</h1>
+<p>Molibdeno</p>
+</button> 
+<button class="metaldetransicion" id="w" type="button" onclick="alert(183.84)">
+<h1>W</h1>
+<p>Tungsteo</p>
+</button> 
+<button class="metaldetransicion" id="sg" type="button" onclick="alert(269)">
+<h1>Sg</h1>
+<p>seaborgio</p>
+</button> 
+<button class="metaldetransicion" id="v" type="button" onclick="alert(50.94)">
+<h1>V</h1>
+<p>Vanadio</p>
+</button> 
+<button class="metaldetransicion" id="nb" type="button" onclick="alert(92.90)">
+<h1>Nb</h1>
+<p>Niobio</p>
+</button> 
+<button class="metaldetransicion" id="ta" type="button" onclick="alert(180.94)">
+<h1>Ta</h1>
+<p>Talio</p>
+</button> 
+<button class="metaldetransicion" id="db" type="button" onclick="alert(262)">
+<h1>Db</h1>
+<p>Dubinio</p>
+</button>
+<button class="metaldetransicion" id="ti" type="button" onclick="alert(47.86)">
+<h1>Ti</h1>
+<p>Titanio</p>
+</button> 
+<button class="metaldetransicion" id="zr" type="button" onclick="alert(91.22)">
+<h1>Zr</h1>
+<p>Zirconio</p>
+</button> 
+<button class="metaldetransicion" id="hf" type="button" onclick="alert(178.49)">
+<h1>Hf</h1>
+<p>Hafnio</p>
+</button>
+<button class="metaldetransicion" id="rf" type="button" onclick="alert(261)">
+<h1>Rf</h1>
+<p>Rutherfordio</p>
+</button>  
+<button class="metaldetransicion" id="sc" type="button" onclick="alert(14.95)">
+<h1>Sc</h1>
+<p>Escandio</p>
+</button> 
+<button class="metaldetransicion" id="y" type="button" onclick="alert(88.90)">
+<h1>Y</h1>
+<p>Itrio</p>
+</button> 
+<button class="lantanidos" id="la" type="button" onclick="alert(138.90)">
+<h1>La</h1>
+<p>Lantano</p>
+</button> 
+<button class="lantanidos" id="ce" type="button" onclick="alert(140.11)">
+<h1>Ce</h1>
+<p>Cerio</p>
+</button>
+<button class="lantanidos" id="pr" type="button" onclick="alert(140.9)">
+<h1>Pr</h1>
+<p>Praseodimio</p>
+</button> 
+<button class="lantanidos" id="nd" type="button" onclick="alert(144.24)">
+<h1>Nd</h1>
+<p>Neodimio</p>
+</button>
+<button class="lantanidos" id="pm" type="button" onclick="alert((145))">
+<h1>Pm</h1>
+<p>Prometio</p>
+</button> 
+<button class="lantanidos" id="sm" type="button" onclick="alert(150.36)">
+<h1>Sm</h1>
+<p>Samario</p>
+</button>
+<button class="lantanidos" id="eu" type="button" onclick="alert(151.96)">
+<h1>Eu</h1>
+<p>Europio</p>
+</button> 
+<button class="lantanidos" id="gd" type="button" onclick="alert(157.25)">
+<h1>Gd</h1>
+<p>Gadolino</p>
+</button> 
+<button class="lantanidos" id="tb" type="button" onclick="alert(158.92)">
+<h1>Tb</h1>
+<p>Terbio</p>
+</button> 
+<button class="lantanidos" id="dy" type="button" onclick="alert(162.50)">
+<h1>Dy</h1>
+<p>Disprosio</p>
+</button>
+<button class="lantanidos" id="ho" type="button" onclick="alert(164.93)">
+<h1>Ho</h1>
+<p>Holmio</p>
+</button> 
+<button class="lantanidos" id="er" type="button" onclick="alert(167.25)">
+<h1>Er</h1>
+<p>Erbio</p>
+</button> 
+<button class="lantanidos" id="tm" type="button" onclick="alert(168.93)">
+<h1>Tm</h1>
+<p>Tulio</p>
+</button>
+<button class="lantanidos" id="yb" type="button" onclick="alert(173.04)">
+<h1>Yb</h1>
+<p>Holmio</p>
+</button> 
+<button class="lantanidos" id="lu" type="button" onclick="alert(174.96)">
+<h1>Lu</h1>
+<p>Lutecio</p>
+</button> 
+<button class="actinios" id="ac" type="button" onclick="alert((227))">
+<h1>Ac</h1>
+ <p>Actinio</p>
+</button> 
+<button class="actinios" id="th" type="button" onclick="alert(232.02)">
+<h1>Th</h1>
+<p>Torio</p>
+</button>  
+<button class="actinios" id="pa" type="button" onclick="alert(231.0)">
+<h1>Pa</h1>
+ <p>protactinio</p>
+</button> 
+<button class="actinios" id="u" type="button" onclick="alert(238.0)">
+<h1>U</h1>
+<p>Uranio</p>
+</button>  
+</body>
+<button class="actinios" id="np" type="button" onclick="alert((237))">
+<h1>Np</h1>
+<p>Neptunio</p>
+</button> 
+<button class="actinios" id="pu" type="button" onclick="alert((244))">
+<h1>Pu</h1>
+<p>Plutonio</p>
+</button>  
+<button class="actinios" id="am" type="button" onclick="alert((234))">
+<h1>Am</h1>
+<p>Amercio</p>
+</button> 
+<button class="actinios" id="cm" type="button" onclick="alert((247))">
+<h1>Cm</h1>
+<p>Curio</p>
+</button>  
+<button class="actinios" id="bk" type="button" onclick="alert((247))">
+<h1>Bk</h1>
+<p>Berkelio</p>
+</button> 
+<button class="actinios" id="cf" type="button" onclick="alert((251))">
+<h1>Cf</h1>
+<p>Californio</p>
+</button>  
+<button class="actinios" id="es" type="button" onclick="alert((252))">
+<h1>Es</h1>
+<p>Einstenio</p>
+</button> 
+<button class="actinios" id="fm" type="button" onclick="alert((257))">
+<h1>Fm</h1>
+<p>Fermio</p>
+</button>  
+</body>
+<button class="actinios" id="md" type="button" onclick="alert((258))">
+<h1>Md</h1>
+<p>Mendelevio</p>
+</button> 
+<button class="actinios" id="no" type="button" onclick="alert((259))">
+<h1>No</h1>
+<p>Nobelio</p>
+</button>  
+<button class="actinios" id="lr" type="button" onclick="alert((259))">
+<h1>Lr</h1>
+<p>Laurencio</p>
+</button> 
+</body>
+</html>
